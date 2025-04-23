@@ -71,7 +71,7 @@ const About = () => {
                                     />
                                     </span>
                                 </button>
-                                <button onClick={() => window.open(`${import.meta.env.BASE_URL}/CV_-_Ari_Blashnikov[1].pdf`, '_blank')} type="button" className=" text-white hover:text-[#24292F] bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mt-6 ">
+                                <button onClick={() => window.open(`${import.meta.env.BASE_URL}/CV - Ari Blashnikov.pdf`, '_blank')} type="button" className=" text-white hover:text-[#24292F] bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mt-6 ">
                                     resume<span><img
                                         className="w-5 ml-2 filter invert transition duration-300 hover:filter-none"
                                         src={resume}
