@@ -7,7 +7,7 @@ import Projects from './components/Projects'
 import WelcomePage from './components/WelcomePage'
 import { projects } from './data/projects'
 import ScrollReveal from 'scrollreveal';
-import About2 from './components/About2'
+// import About2 from './components/About2'
 
 function App() {
 
@@ -25,10 +25,10 @@ function App() {
 
   return (
 
-    <div className='sr-hidden'>
+    <div className=''>
 
       <WelcomePage />
-      <About className="sr-hidden" />
+      <About className="" />
       {/* <About2 className="sr-hidden" /> */}
       <Projects projects={projects} />
       <Contact />

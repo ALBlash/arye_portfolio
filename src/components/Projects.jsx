@@ -30,6 +30,7 @@ const Projects = ({ projects }) => {
                                 className="bg-white w-80 shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
                             >
                                 <img
+                                    loading='lazy'
                                     src={project.image}
                                     alt={project.title}
                                     className="w-full h-48 object-cover"
@@ -49,6 +50,11 @@ const Projects = ({ projects }) => {
                                         <p className="text-gray-600 mb-4">
                                             {project.description}
                                         </p>
+                                        <div className="flex flex-row flex-wrap gap-2 mb-2">
+                                            {project.tech.map((tech) => (
+                                                <span className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm">{tech}</span>
+                                            ))}
+                                        </div>
                                     </div>
 
                                     <div className="w-full flex flex-row justify-between">

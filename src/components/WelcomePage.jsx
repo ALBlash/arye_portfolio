@@ -13,7 +13,7 @@ const WelcomePage = () => {
     }, [])
 
     return (
-        <div className='h-screen flex flex-col items-center justify-center'>
+        <header className='h-screen flex flex-col items-center justify-center'>
             <div className=' w-20 flex flex-row justify-center items-center space-x-4'>
                 <h1 className='headline'>Hi,i'm </h1>
                 <span className='name text-[55px]'>Ari</span>
@@ -22,7 +22,7 @@ const WelcomePage = () => {
                 <p >Full-Stack Web Developer</p>
                 <p>and this is my portfolio</p>
             </div>
-        </div>
+        </header>
     )
 }
 
